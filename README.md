@@ -8,7 +8,7 @@ I work for [Lonely Planet](http://www.lonelyplanet.com). Some of the things I po
 Contact me
 ----------
 
-Twitter: [@mark_barger](http://twitter.com/!#/mark_barger)
+Twitter: [@mark_barger](http://twitter.com/#!/mark_barger)
 
 Email: barger.mark@gmail.com
 

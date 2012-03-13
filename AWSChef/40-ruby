@@ -1,0 +1,5 @@
+#!/bin/bash
+#Disable rdoc and ri
+echo "gem: --no-ri --no-rdoc" >> /etc/gemrc
+#Install Chef
+gem install chef

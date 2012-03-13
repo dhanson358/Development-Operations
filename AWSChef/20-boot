@@ -1,0 +1,8 @@
+#cloud-config
+packages: 
+- build-essential
+- git
+- zlib1g-dev
+- libssl-dev
+- ruby1.9.1
+- ruby1.9.1-dev

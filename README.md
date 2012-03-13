@@ -5,6 +5,9 @@ This repository was created to be home to some hopefully useful information and 
 
 Contact me
 ----------
+
 @mark_barger
+
 barger.mark@gmail.com
+
 http://www.linkedin.com/in/markbarger

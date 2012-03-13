@@ -6,8 +6,8 @@ This repository was created to be home to some hopefully useful information and 
 Contact me
 ----------
 
-@mark_barger
+Twitter: (@mark_barger)[http://twitter.com/!#/mark_barger]
 
-barger.mark@gmail.com
+Email: barger.mark@gmail.com
 
-http://www.linkedin.com/in/markbarger
+LinkedIn: http://www.linkedin.com/in/markbarger

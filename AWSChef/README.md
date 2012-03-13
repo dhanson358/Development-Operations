@@ -121,7 +121,7 @@ ec2-run-instances -t m1.small ami-baba68d3 -f data.gz -k admin
 Bootstrap process (AutoScaling)
 -------------------------------
 
-1) Use the same data.gz you would for a single serer.
+1) Use the same data.gz you would for a single server.
 
 2) Create a scaling config and launch one instance:
 

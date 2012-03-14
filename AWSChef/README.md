@@ -31,7 +31,7 @@ Additions to the image that support the bootstrap and orchestration process:
 
 ```
 Chef
-ruby-1.9.2
+ruby-1.9.3p0
 Some basic configuration. Chef should handle as much as possible.
 ```
 
@@ -80,14 +80,14 @@ Bootstrap process (single server)
 1) Be sure to have a functioning cloud-init user-data file:
 
 ```bash
-./write-mime-multipart 10-banner 20-boot 30-user 40-ruby 50-repo 99-role > data
+./write-mime-multipart 10-banner 20-boot 30-user 40-ruby 50-repo 99-default-role > data
 gzip data
 mv data.gz $EC2_HOME
 ```
 
 write-mime-multipart allows you to pass cloud-init configuration and shell scripts as one data file to the Amazon API's.
 
-**The file 99-role is very important. This is the JSON passed to chef-solo.**
+**The file 99-default-role is very important. This is the JSON passed to chef-solo.**
 
 Example:
 
@@ -106,7 +106,7 @@ chef-solo && echo "Server ready." | wall
 
 On boot, the cloud-init user-data file is passed to the server for execution. Amongst other things, it prepares the server to execute Chef recipes that are cloned from another Git repository:
 
-* https://github.com/exampleprivaterepo/chef
+* https://github.com/secret/chef
 
 This method means that at boot time, each server has the latest Chef cookbooks available. It also encourages servers to be regularly destroyed and recreated.
 

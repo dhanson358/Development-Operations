@@ -1,14 +1,14 @@
 #!/bin/bash
 #Add a deploy user with keys to our github Chef repo
-useradd -m -G admin,users deploy -s /bin/bash
+useradd -m -G admin deploy -s /bin/bash
 mkdir -p /home/deploy/.ssh
 cat << "EOF" > /home/deploy/.ssh/id_rsa
-Secret codes.
+-----BEGIN RSA PRIVATE KEY-----
+Secret
+-----END RSA PRIVATE KEY-----
 EOF
 chown -R deploy:deploy /home/deploy/.ssh
 chmod 700 /home/deploy/.ssh
 chmod 400 /home/deploy/.ssh/id_rsa
-#Set the editor
-update-alternatives --set editor /usr/bin/vim.basic
 #SSH settings
 echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config

@@ -2,6 +2,6 @@
 #Clone the Chef repo from github
 mkdir /var/chef-solo
 chown deploy:deploy /var/chef-solo
-su deploy -c 'git clone git@github.com:secretrepo/chef.git /var/chef-solo'
+su deploy -c 'git clone git@github.com:secret/chef.git /var/chef-solo'
 mkdir /etc/chef
 cp /var/chef-solo/solo.rb /etc/chef/solo.rb

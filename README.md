@@ -3,7 +3,7 @@ Summary
 
 This repository was created to be home to some hopefully useful information and code I can share from private repositories or side projects. It's a little sparse for now.
 
-I work for [Lonely Planet](http://www.lonelyplanet.com). Some of the things I post here may be used their, but any views or commentary are my own.
+I work for [Lonely Planet](http://www.lonelyplanet.com). Some of the things I post here may be used there, but any views or commentary are my own.
 
 Contact me
 ----------
